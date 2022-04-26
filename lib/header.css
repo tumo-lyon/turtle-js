@@ -22,6 +22,8 @@ header {
 .header-menu {
   display: inline;
   height: 100%;
+  line-height: 60px;
+  vertical-align: middle;
 }
 
 .header-menu ul {
@@ -38,6 +40,8 @@ header {
   margin-right: 20px;
   border-radius: 8px;
   transition: 0.3s ease-out;
+  vertical-align: middle;
+  line-height: 50px;
 }
 
 .header-menu li:hover {
@@ -49,8 +53,8 @@ header {
   text-decoration: none;
   color: white;
   font-size: 20px;
-  display: block;
   height: 100%;
   width: 100%;
   text-decoration: none;
+  margin: 10px;
 }
