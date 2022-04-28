@@ -6,13 +6,12 @@
 }
 
 .body-part {
-  background-color: rgb(27, 101, 77);
   border: 3px solid rgb(40, 148, 112);
   border-radius: 12px;
   box-shadow: black 0px 1px 10px;
 }
 
-.body-part h1 {
+.body-part h2 {
   margin: 0px;
   padding: 0px;
   background-color: rgb(40, 148, 112);
@@ -38,4 +37,12 @@ canvas {
   padding: 0;
   list-style: none;
   font-size: 20px;
+}
+
+.code-string {
+  color: coral;
+}
+
+.code-integer {
+  color: aquamarine;
 }
