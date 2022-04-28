@@ -1,9 +1,27 @@
 @import 'header.css';
 @import 'body-content.css';
 
+:root {
+  --background-color: #f1f1f1;
+  --primary-color: rgb(40, 148, 112);
+  --secondary-color: rgb(33, 183, 133);
+  --tertiary-color: rgb(60, 226, 171);
+  --primary-font-family: Arial, Helvetica, sans-serif;
+  --secondary-font-family: Consolas, monaco, monospace;
+  --primary-font-color: #f5f5f5;
+  --code-string-color: coral;
+  --code-int-color: aquamarine;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #353535;
+  }
+}
+
 html {
-  background-color: #ffffff;
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--background-color);
+  font-family: var(--primary-font-family);
   width: 100%;
   height: 100%;
   margin: 0;

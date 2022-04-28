@@ -6,7 +6,7 @@
 }
 
 .body-part {
-  border: 3px solid rgb(40, 148, 112);
+  border: 3px solid var(--primary-color);
   border-radius: 12px;
   box-shadow: black 0px 1px 10px;
 }
@@ -14,7 +14,7 @@
 .body-part h2 {
   margin: 0px;
   padding: 0px;
-  background-color: rgb(40, 148, 112);
+  background-color: var(--primary-color);
   border-radius: 6px 6px 0px 0px;
   text-align: center;
 }
@@ -27,9 +27,6 @@
 
 canvas {
   background-color: white;
-  border: rgb(40, 148, 112) 3px solid;
-  border-radius: 12px;
-  box-shadow: black 0px 1px 10px;
 }
 
 .function-list {
@@ -40,9 +37,9 @@ canvas {
 }
 
 .code-string {
-  color: coral;
+  color: var(--code-string-color);
 }
 
 .code-integer {
-  color: aquamarine;
+  color: var(--code-int-color);
 }
