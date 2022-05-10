@@ -6,17 +6,32 @@
 }
 
 .body-part {
+  background-color: var(--primary-color);
   border: 3px solid var(--primary-color);
   border-radius: 12px;
-  box-shadow: black 0px 1px 10px;
+  box-shadow: var(--shadow-color) 0px 1px 10px;
 }
 
 .body-part h2 {
+  height: 10%;
   margin: 0px;
   padding: 0px;
-  background-color: var(--primary-color);
   border-radius: 6px 6px 0px 0px;
   text-align: center;
+}
+
+.body-part ul {
+  height: 90%;
+  margin: 0 5px;
+  overflow-y: auto;
+}
+
+.body-part li {
+  height: min-content;
+  padding: 5px 10px;
+  background-color: var(--secondary-background-color);
+  margin-bottom: 10px;
+  border-radius: 12px;
 }
 
 .body-right {
@@ -25,7 +40,7 @@
   grid-template-rows: 47% 1fr 47%;
 }
 
-canvas {
+#turtle-canvas {
   background-color: white;
 }
 

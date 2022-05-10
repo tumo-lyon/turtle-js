@@ -3,6 +3,7 @@
 
 :root {
   --background-color: #f1f1f1;
+  --secondary-background-color: rgb(32, 114, 86);
   --primary-color: rgb(40, 148, 112);
   --secondary-color: rgb(33, 183, 133);
   --tertiary-color: rgb(60, 226, 171);
@@ -11,6 +12,7 @@
   --primary-font-color: #f5f5f5;
   --code-string-color: coral;
   --code-int-color: aquamarine;
+  --shadow-color: black;
 }
 
 @media (prefers-color-scheme: dark) {
