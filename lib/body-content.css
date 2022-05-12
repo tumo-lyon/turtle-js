@@ -1,4 +1,5 @@
 .body-content {
+  height: 700px;
   padding: 50px 5% 0px 5%;
   display: grid;
   grid-template-columns: min-content 1fr 3fr;
@@ -42,6 +43,13 @@
 
 #turtle-canvas {
   background-color: white;
+}
+
+#action-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 20px;
 }
 
 .function-list {
