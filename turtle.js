@@ -1,6 +1,10 @@
+setSpeed(300);
+
+setWidth(4);
+
 function semiCircle(x, y, size) {
   setAngle(-90);
-  setWidth(2);
+
   for (let i = 0; i < 18; i++) {
     goto(x, y);
     forward(size);
@@ -25,3 +29,5 @@ semiCircle(-108, -178, 40);
 setColor('orange');
 
 semiCircle(-217, -218, 35);
+
+hide();
