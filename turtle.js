@@ -1,33 +1,17 @@
 setSpeed(300);
 
-setWidth(4);
+forward(100);
 
-function semiCircle(x, y, size) {
-  setAngle(-90);
-
-  for (let i = 0; i < 18; i++) {
-    goto(x, y);
-    forward(size);
-    right(180 / 17);
-  }
-}
-
-semiCircle(0, 0, 100);
+right(35);
 
 setColor('blue');
 
-semiCircle(-284, 120, 60);
+forward(50);
+
+goto(-100, -100);
+
+setAngle(90);
 
 setColor('green');
 
-semiCircle(150, -207, 130);
-
-setColor('purple');
-
-semiCircle(-108, -178, 40);
-
-setColor('orange');
-
-semiCircle(-217, -218, 35);
-
-hide();
+forward(75);
