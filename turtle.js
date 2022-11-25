@@ -1,17 +1,5 @@
-setSpeed(300);
+/// <reference path="./lib/better-turtle.d.ts" />
 
-forward(100);
+// Code below:
 
-right(35);
-
-setColor('blue');
-
-forward(50);
-
-goto(-100, -100);
-
-setAngle(90);
-
-setColor('green');
-
-forward(75);
+setDelay(100);
