@@ -52,6 +52,7 @@ declare function putPenDown(): Turtle;
  * @param col Any value resolvable to a color.
  * @returns {Turtle} For method chaining.
  */
+declare function setColor(red: number, green: number, blue: number): Turtle;
 declare function setColor(col: ColorResolvable): Turtle;
 /**
  * Sets a new width to be used for drawing lines.
